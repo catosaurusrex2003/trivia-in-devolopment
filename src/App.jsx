@@ -6,8 +6,6 @@ export default function App(){
   //change defaulte state back to false when done
   let [start,set_start] = React.useState(true)
 
-  
-
   function startgame(){
     set_start(true)
   }
