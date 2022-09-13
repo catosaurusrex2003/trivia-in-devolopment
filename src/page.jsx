@@ -19,6 +19,7 @@ export default function Page() {
     { id: 9, value: "" },
     { id: 10, value: "" },
   ];
+  
   const [choice, set_choice] = React.useState(blank_choice);
 
   // filtering data to make state of required data objects
